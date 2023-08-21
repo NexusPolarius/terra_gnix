@@ -9,7 +9,7 @@
 * выполнить команду "ssh-keygen -t ed25519 -f ~/.ssh/gnix"
 * выполнить команду "export YC_TOKEN=$(yc iam create-token)"
 * выполнить команду "export TF_VAR_yc_token=$YC_TOKEN"
-* выполнить команду "git clone "
+* выполнить команду "git clone https://github.com/NexusPolarius/terra_gnix.git"
 * перейти в каталог склонированного проекта
 * выполнить команду "terraform plan"
 * выполнить команду "terraform aplay" и подтвердить выполнение командой "yes"
